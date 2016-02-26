@@ -20,43 +20,28 @@ class Untitled(unittest.TestCase):
     def test_login(self):
         driver = self.driver
         driver.get(self.base_url)
+        current_window = driver.window_handles[0]
         driver.find_element_by_id("nblogin").click()
-        alert = driver.switch_to.alert()
+        driver.switch_to.frame(driver.find_element_by_class_name("cboxIframe"))
         try:
             element = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.LINK_TEXT, "Google")))
         except NoSuchElementException:
             time.sleep(1)
-
         driver.find_element_by_link_text("Google").click()
-        # ERROR: Caught exception [ERROR: Unsupported command [selectPopUp |  | ]]
-        for i in range(10):
-            try:
-                if self.is_element_present(By.ID, "account-chooser-link"):
-                    break
-            except: pass
-            time.sleep(1)
-        else: self.fail("time out")
-        driver.find_element_by_id("account-chooser-link").click()
-        driver.find_element_by_id("account-chooser-add-account").click()
+        new_window = driver.window_handles[1]
+        driver.switch_to.window(new_window)
         driver.find_element_by_id("Email").clear()
         driver.find_element_by_id("Email").send_keys("imdbtest0@gmail.com")
-        for i in range(10):
-            try:
-                if "" == driver.find_element_by_id("next").text:
-                    break
-            except: pass
-            time.sleep(1)
-        else: self.fail("time out")
-        try: self.assertTrue(self.is_element_present(By.ID, "next"))
-        except AssertionError as e: self.verificationErrors.append(str(e))
+        try:
+            self.assertTrue(self.is_element_present(By.ID, "next"))
+        except AssertionError as e:
+            self.verificationErrors.append(str(e))
         driver.find_element_by_id("next").click()
-        for i in range(10):
-            try:
-                if self.is_element_present(By.ID, "Passwd"):
-                    break
-            except: pass
-            time.sleep(1)
-        else: self.fail("time out")
+        try:
+            self.assertTrue(self.is_element_present(By.ID, "Passwd"))
+        except AssertionError as e:
+            self.verificationErrors.append(str(e))
+
         driver.find_element_by_id("Passwd").clear()
         driver.find_element_by_id("Passwd").send_keys("Password!@#$5")
         driver.find_element_by_id("signIn").click()
