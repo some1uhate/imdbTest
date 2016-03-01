@@ -6,7 +6,7 @@ ehthumbs.db
 Desktop.ini
 ENV
 __pycache__
-
+.cache
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
