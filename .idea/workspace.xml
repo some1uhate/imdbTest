@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b42ae112-60b7-4c8b-8cb3-fbc4602e6ab4" name="Default" comment="add trash code">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/.cache/v/cache/lastfailed" />
+>>>>>>> master
     </list>
     <ignored path="imdbTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,12 +26,21 @@
     <favorites_list name="imdbTest" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="test_1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+=======
+    <leaf>
+      <file leaf-file-name="test_1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/test_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6163142">
+              <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+>>>>>>> master
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -35,6 +48,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,6 +61,17 @@
       </file>
     </leaf>
   </component>
+=======
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+>>>>>>> master
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -54,12 +79,25 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
+=======
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature-test" />
+      </map>
+    </option>
+>>>>>>> master
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/tests/test_1.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+=======
+        <option value="$PROJECT_DIR$/test_1.py" />
+        <option value="$PROJECT_DIR$/tests/test_1.py" />
+>>>>>>> master
       </list>
     </option>
   </component>
@@ -69,6 +107,28 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyStatementEffectInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+>>>>>>> master
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -132,29 +192,114 @@
       <pane id="Scratches" />
     </panes>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python tests.py.test in LoginTest">
     <configuration default="false" name="py.test in LoginTest" type="tests" factoryName="py.test" temporary="true">
+=======
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pythonSelenium" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="286" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="304" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="310" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="990" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="308" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="297" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="303" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="982" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mana\Documents\GitHub\imdbTest\tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Nosetests in Untitled (1)">
+    <configuration default="false" name="Nosetests in test_1" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+>>>>>>> master
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+>>>>>>> master
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="imdbTest" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="" />
+=======
+      <option name="SCRIPT_NAME" value="C:\Users\mana\Documents\GitHub\imdbTest\tests\test_1.py" />
+>>>>>>> master
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
+<<<<<<< HEAD
       <option name="testToRun" value="$PROJECT_DIR$/tests/test_1.py" />
       <option name="keywords" value="LoginTest" />
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="true" />
+=======
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetests in Untitled" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="imdbTest" />
+      <option name="SCRIPT_NAME" value="C:\Users\mana\Documents\GitHub\imdbTest\tests\test_1.py" />
+      <option name="CLASS_NAME" value="Untitled" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetests in Untitled (1)" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="imdbTest" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_1.py" />
+      <option name="CLASS_NAME" value="Untitled" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+>>>>>>> master
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -279,12 +424,25 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in LoginTest" />
     </list>
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in LoginTest" />
+=======
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in test_1" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in Untitled" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in Untitled (1)" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in Untitled (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in Untitled" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in test_1" />
+>>>>>>> master
       </list>
     </recent_temporary>
   </component>
@@ -294,6 +452,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="b42ae112-60b7-4c8b-8cb3-fbc4602e6ab4" name="Default" comment="add trash code" />
       <created>1456836476586</created>
       <option name="number" value="Default" />
@@ -374,6 +533,109 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <changelist id="b42ae112-60b7-4c8b-8cb3-fbc4602e6ab4" name="Default" comment="" />
+      <created>1455885751869</created>
+      <option name="number" value="Default" />
+      <updated>1455885751869</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add trash code">
+      <created>1455900450756</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1455900450756</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add trash code">
+      <created>1456508406178</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1456508406178</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add trash code">
+      <created>1456508681006</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1456508681006</updated>
+    </task>
+    <task id="LOCAL-00004" summary="clean and beautiful">
+      <created>1456736612850</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1456736612850</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add tests directory">
+      <created>1456832443042</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1456832443042</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Nosetests_in_Untitled - 2016.02.29 at 10h 43m 19s.xml">
+      <configuration name="Nosetests in Untitled" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_Untitled - 2016.02.29 at 10h 47m 11s.xml">
+      <configuration name="Nosetests in Untitled" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_Untitled - 2016.02.29 at 10h 49m 05s.xml">
+      <configuration name="Nosetests in Untitled" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_Untitled - 2016.02.29 at 10h 54m 36s.xml">
+      <configuration name="Nosetests in Untitled" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_Untitled - 2016.02.29 at 10h 57m 11s.xml">
+      <configuration name="Nosetests in Untitled" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_Untitled - 2016.02.29 at 10h 59m 24s.xml">
+      <configuration name="Nosetests in Untitled" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_Untitled - 2016.02.29 at 11h 00m 19s.xml">
+      <configuration name="Nosetests in Untitled" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_Untitled - 2016.03.01 at 13h 28m 51s.xml">
+      <configuration name="Nosetests in Untitled" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_Untitled_(1) - 2016.03.01 at 14h 13m 07s.xml">
+      <configuration name="Nosetests in Untitled (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_Untitled_(1) - 2016.03.01 at 14h 15m 46s.xml">
+      <configuration name="Nosetests in Untitled (1)" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="304" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2386617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.55334395" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41761827" sideWeight="0.39851302" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34002677" sideWeight="0.4936306" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40696117" sideWeight="0.4968153" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41761827" sideWeight="0.601487" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.4968153" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> master
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -388,10 +650,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
     <MESSAGE value="add folders in gitignore" />
     <MESSAGE value="debugged in Chrome and IE" />
     <MESSAGE value="gitignore update" />
     <option name="LAST_COMMIT_MESSAGE" value="gitignore update" />
+=======
+    <MESSAGE value="add trash code" />
+    <MESSAGE value="clean and beautiful" />
+    <MESSAGE value="add tests directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tests directory" />
+>>>>>>> master
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -401,6 +670,7 @@
     <entry file="file://$PROJECT_DIR$/tests/test_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
@@ -439,6 +709,8 @@
     <entry file="file://$PROJECT_DIR$/tests/test_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+=======
+>>>>>>> master
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
@@ -469,21 +741,33 @@
     </entry>
     <entry file="file://C:/Python34/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.3321976">
           <caret line="417" column="8" selection-start-line="417" selection-start-column="8" selection-end-line="417" selection-end-column="8" />
+=======
+        <state vertical-scroll-proportion="-17.82906">
+          <caret line="421" column="8" selection-start-line="421" selection-start-column="8" selection-end-line="421" selection-end-column="8" />
+          <folding />
+>>>>>>> master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_1.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="0.6163142">
+          <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+>>>>>>> master
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25976232">
@@ -492,5 +776,7 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> master
   </component>
 </project>

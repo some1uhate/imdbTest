@@ -6,7 +6,11 @@ ehthumbs.db
 Desktop.ini
 ENV
 __pycache__
+.idea
 .cache
+=======
+
+>>>>>>> master
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
