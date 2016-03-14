@@ -13,14 +13,16 @@ class LoginTest(unittest.TestCase):
         self.base_url = "http://www.imdb.com/"
         self.verificationErrors = []
 
-    def test_login(self):
+    def test_login_google(self):
         driver = self.driver
         driver.get(self.base_url)
         WebDriverWait(driver, 5).until(EC.element_to_be_clickable((By.ID, "nblogin")))
         driver.find_element_by_id("nblogin").click()
+        # Switch to new pop-up
         driver.switch_to.frame(driver.find_element_by_class_name("cboxIframe"))
         WebDriverWait(driver, 5).until(EC.element_to_be_clickable((By.LINK_TEXT, "Google")))
         driver.find_element_by_link_text("Google").click()
+        # Switch to new window
         new_window = driver.window_handles[1]
         driver.switch_to.window(new_window)
         WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, "Email")))
